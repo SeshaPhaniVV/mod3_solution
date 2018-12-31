@@ -1,0 +1,103 @@
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 0;
+}
+
+#brand-name {
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background: #E7E7E7;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #999999;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.item-text {
+  padding: 15px;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.item-header {
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-content {
+  text-align: center;
+  background-color: #999999;
+  margin-bottom: 25px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+p {
+  color: #000000;
+}
+
+#collapsable-nav li a {
+  margin: -15px 0 -16px 0;
+  font-weight: bold;
+}
+
+hr {
+  width: 100%;
+  border-color: #000000;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #collapsable-nav {
+    background: #E7E7E7;
+  }
+
+  .main-content {
+    width: 450px;
+    margin: 0 auto 15px;
+    float: none;
+  }
+}
+
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+  .main-content {
+    width: 280px;
+    margin: 0 auto 15px;
+    float: none;
+  }
